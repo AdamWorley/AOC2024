@@ -46,6 +46,7 @@ ruby day1/part2.rb
 ### Running the Tests
 
 We don't need tests where we're going...
+
 ![Back to the future reference](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExcmRyazEzMnN2OG15NXo3Z3pzOGFteDVraTFwZHEycG5qc2I4ZTQ3cCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xsF1FSDbjguis/giphy.webp)
 
 ## 🛷 Progress Tracker
@@ -56,7 +57,8 @@ We don't need tests where we're going...
 | 02  | ✅ Solved | 🟢 Done  | Part 2 definitely put up a fight|
 | 03  | ✅ Solved  | 🟢 Done  | Always a gamble going for Regex but I think it paid off|
 | 04  | ✅ Solved  | 🟢 Done  | |
-| 05  | ⌛ Locked | 🔒 Locked | N/A |
+| 05  | ✅ Solved  | 🟢 Done  | |
+| 06  | ⌛ Locked | 🔒 Locked | N/A |
 <!-- | 02 | 🚧 In Progress | 🟡 WIP | -->
 
 _...and so on, updated daily as we make our way to Christmas!_
