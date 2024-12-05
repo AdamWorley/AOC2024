@@ -52,9 +52,8 @@ corrected = wrong.map{|w|
       indx = ps.find_index(w)
 
       if(indx)
-        tmp = ps[indx]
+        ps[i] = ps[indx]
         ps[indx] = cur
-        ps[i] = tmp
         swapped = true
       end
 
@@ -65,7 +64,6 @@ corrected = wrong.map{|w|
   ps
 }
 
-p corrected
 result = corrected.map{|p| p[p.size/2]}.sum
 
 p result
