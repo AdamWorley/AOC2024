@@ -1,4 +1,4 @@
-input = File.readlines('example.txt').map do |line|
+input = File.readlines('input.txt').map do |line|
   line.strip.chars
 end
 
@@ -19,10 +19,6 @@ caught = 0
 input.each_with_index do |line, sy|
   line.each_with_index do |_, sx|
     guard_start = flattened.chars.find_index("^")
-    unless guard_start
-      p "No guard found in input!"
-      next
-    end
 
     x = guard_start % width
     y = guard_start / width
@@ -43,7 +39,7 @@ input.each_with_index do |line, sy|
     end
 
     visited = {}
-    visited[[guard_pos.dup, direction.dup]] = true
+    visited["#{guard_pos[0]},#{guard_pos[1]}:#{direction}"] = true
     butterfly = input.map(&:dup)
     butterfly[sy][sx] = "#"
 
